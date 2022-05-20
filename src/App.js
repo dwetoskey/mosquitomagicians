@@ -2,10 +2,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Header from './components/Header';
 import Facts from './components/Facts';
+import Lead from './components/TopCarousel';
 
 function App() {
   return (
-    <div className="App mh-100">
+    <div className="App">
       <header>
 
         <Header>
@@ -15,7 +16,8 @@ function App() {
       </header>
 
       <body>
-        
+        <Lead></Lead>
+
         <Facts> </Facts>
 
       </body>
