@@ -1,15 +1,18 @@
 import { Carousel } from 'react-bootstrap';
 import placeholderimg from '../../images/placeholder.png';
+import bbqimg from '../../images/bbq.jpg';
+import birthdayimg from '../../images/birthday.jpg';
+import facebookbanner from '../../images/facebook banner 3.jpg';
 
 function Lead() {
 
     return (
         <div className=' d-flex h-100 justify-content-center'>
         <Carousel className='h-50'>
-            <Carousel.Item className='h-25'>
+            <Carousel.Item className=''>
                 <img
                     className="carouselimg"
-                    src={placeholderimg}
+                    src={bbqimg}
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -19,8 +22,8 @@ function Lead() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="carouselimg h-25"
-                    src={placeholderimg}
+                    className="carouselimg"
+                    src={birthdayimg}
                     alt="Second slide"
                 />
 
@@ -32,7 +35,7 @@ function Lead() {
             <Carousel.Item>
                 <img
                     className="carouselimg"
-                    src={placeholderimg}
+                    src={facebookbanner}
                     alt="Third slide"
                 />
 
