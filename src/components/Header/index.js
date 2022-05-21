@@ -8,14 +8,9 @@ import { FaSms } from 'react-icons/fa';
 function Header() {
 
     return (
-        <Navbar bg="light" variant="light">
+        <Navbar bg="light" variant="light" className="d-flex flex-wrap">
             <Container>
                 <Navbar.Brand href="#home">Mosquito Magicians</Navbar.Brand>
-                <Nav className="me-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Reviews</Nav.Link>
-                    <Nav.Link href="#pricing">Quotes</Nav.Link>
-                </Nav>
                 <Container className="justify-content-right">
 
                     <img className="logo" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />

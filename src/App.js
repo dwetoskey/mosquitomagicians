@@ -3,6 +3,8 @@ import './App.css';
 import Header from './components/Header';
 import Facts from './components/Facts';
 import Lead from './components/TopCarousel';
+import About from './components/About';
+import What from './components/What';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
 
       <body>
         <Lead></Lead>
+
+        <About></About>
+        <What></What>
 
         <Facts> </Facts>
 
