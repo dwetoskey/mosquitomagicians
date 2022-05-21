@@ -10,7 +10,7 @@ function About() {
             <Card.Header className="h1">Why Us?</Card.Header>
             <Card.Body>
                 <Card.Title><h3><u>Because You're Not Just a Number</u></h3></Card.Title>
-                <Card.Text className="h6">
+                <Card.Text className="h5">
                     After managing at a company that treated their customer like they were a number on a report,
                     I knew it was time to start my own business.
                     <br /> 

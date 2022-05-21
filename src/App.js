@@ -19,10 +19,11 @@ function App() {
 
       <body>
         <Lead></Lead>
-
+        <br />
         <About></About>
+        <br />
         <What></What>
-
+        <br />
         <Facts> </Facts>
 
       </body>

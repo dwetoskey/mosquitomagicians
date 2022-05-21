@@ -38,8 +38,7 @@ function Lead() {
                 />
 
                 <Carousel.Caption>
-                    <h3>Enjoy Your Summer</h3>
-                    <p>Don't hide from bugs, let us take care of it</p>
+                    <h3>Enjoy Your Summer Outdoors</h3>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -85,8 +84,7 @@ function Lead() {
                 />
 
                 <Carousel.Caption>
-                <h3 className='carouseltext h1'>Enjoy Your Summer</h3>
-                    <p className='carouseltext h2'>Don't hide from bugs, let us take care of them</p>
+                <h3 className='carouseltext h1'>Enjoy Your Summer Outdoors</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
