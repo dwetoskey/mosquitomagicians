@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc0b6689.css",
+    "main.js": "/static/js/main.3411bbbd.js",
+    "static/js/787.98d2c41e.chunk.js": "/static/js/787.98d2c41e.chunk.js",
+    "static/media/facebook banner 3.jpg": "/static/media/facebook banner 3.b3627551d743ac3fddb2.jpg",
+    "static/media/childpet.jpg": "/static/media/childpet.d956ee8967c984e92fe4.jpg",
+    "static/media/lawn.jpg": "/static/media/lawn.5c31519ed6ab0b97cb07.jpg",
+    "static/media/ticks.jpg": "/static/media/ticks.7044de7ad2b044beb068.jpg",
+    "static/media/meadow.jpg": "/static/media/meadow.7e9a73b77563a1639a11.jpg",
+    "static/media/Mosquito Magicians-logos__transparent 2.png": "/static/media/Mosquito Magicians-logos__transparent 2.170acb7ac296c6965983.png",
+    "static/media/bbq.jpg": "/static/media/bbq.5543e9bffd1b20a35c99.jpg",
+    "static/media/birthday.jpg": "/static/media/birthday.fb3f4ff85fad12fd02c1.jpg",
+    "static/media/wnv.png": "/static/media/wnv.316e1b22ac44793cbebf.png",
+    "index.html": "/index.html",
+    "main.bc0b6689.css.map": "/static/css/main.bc0b6689.css.map",
+    "main.3411bbbd.js.map": "/static/js/main.3411bbbd.js.map",
+    "787.98d2c41e.chunk.js.map": "/static/js/787.98d2c41e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc0b6689.css",
+    "static/js/main.3411bbbd.js"
+  ]
+}
