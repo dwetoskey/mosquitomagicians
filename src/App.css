@@ -1,5 +1,6 @@
 body {
-  width:100vw;
+  width:100%;
+  margin-bottom: 10em;
 }
 
 header {
@@ -69,6 +70,53 @@ header {
 }
 .cardheight {
   height: 35em;
+}
+.footercarousel {
+  background-image: url("./images/grassbanner.jpg");
+  background-size: auto;
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left:0;
+}
+.footerlogolt {
+  width: 10em;
+  position: absolute;
+  top:2em;
+  left:2em;
+
+}
+.footerlogort {
+  width: 10em;
+  position: absolute;
+  top:2em;
+  right:2em;
+
+}
+.footercarouselmobile {
+  background-image: url("./images/grassbanner.jpg");
+  background-size: auto;
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left:0;
+}
+.mobilefooterlogolt {
+  width: 5em;
+  position: absolute;
+  top:1.5em;
+  left:0.5em;
+
+}
+
+.mobilefooterlogort {
+  width: 5em;
+  position: absolute;
+  top:1.5em;
+  right:0.5em;
+
 }
 
 

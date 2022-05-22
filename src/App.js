@@ -5,6 +5,7 @@ import Facts from './components/Facts';
 import Lead from './components/TopCarousel';
 import About from './components/About';
 import What from './components/What';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         <Facts> </Facts>
 
       </body>
+      <footer>
+        <Footer></Footer>
+      </footer>
 
     </div>
   );
