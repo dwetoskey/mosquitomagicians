@@ -67,6 +67,9 @@ header {
 .desktop {
   display: none;
 }
+.cardheight {
+  height: 35em;
+}
 
 
 @media only screen and (min-width: 1200px) {
