@@ -13,7 +13,7 @@ function Header() {
                 <Navbar.Brand href="#home">Mosquito Magicians</Navbar.Brand>
                 <Container className="justify-content-right">
 
-                    <img className="logo" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
+                    <img className="logo" alt="mosquito magicians banner and mosquito" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
                     <a className="icons p-2" href="https://www.facebook.com/profile.php?id=100065590235649" target="_blank">
                         <BsFacebook size={40} />
                     </a>

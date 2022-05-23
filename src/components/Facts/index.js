@@ -18,7 +18,7 @@ function Facts() {
            
             
             <Card className="m-auto cardheight" style={{ width: '18rem' }} >
-                <Card.Img variant="top" src={wnv} />
+                <Card.Img variant="top" alt="a mosquito" src={wnv} />
                 <Card.Body>
                     <Card.Title>Mosquitos</Card.Title>
                     <Card.Text>
@@ -36,7 +36,7 @@ function Facts() {
             </Card>
 
             <Card style={{ width: '18rem' }} className="m-auto cardheight" >
-                <Card.Img variant="top" src={tick} />
+                <Card.Img variant="top" alt="a tick" src={tick} />
                 <Card.Body>
                     <Card.Title>Ticks</Card.Title>
                     <Card.Text>
@@ -56,7 +56,7 @@ function Facts() {
             
 
             <Card style={{ width: '18rem' }} className="m-auto cardheight" >
-                <Card.Img variant="top" src={flea} />
+                <Card.Img variant="top" alt="a flea" src={flea} />
                 <Card.Body>
                     <Card.Title>Fleas</Card.Title>
                     <Card.Text>

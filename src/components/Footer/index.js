@@ -11,7 +11,7 @@ function Footer() {
         <Container className=''>
             <Carousel controls={false} indicators={false} className='bg-transparent footercarousel desktop'>
                 <Carousel.Item>
-                <img className="footerlogolt" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
+                <img className="footerlogolt" alt="mosquito magicians banner and mosquito" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
                 <h1 className='text-light'>Contact Us for A Free Quote</h1>
                 <IconContext.Provider value={{ color: "white" }}>
                 <a className="icons p-2" href="https://www.facebook.com/profile.php?id=100065590235649" target="_blank">
@@ -24,7 +24,7 @@ function Footer() {
                 <a className="p-2" href="mailto:robertwetoskey@gmail.com?subject=Quote&body=Please give us your name, address, and phone number and tell us what you would like treatment for. We will get back with you as soon as possible.">
                     <AiOutlineMail size={40} />
                 </a>
-                <img className="footerlogort" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
+                <img className="footerlogort" alt="mosquito magicians banner and mosquito" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
                 </IconContext.Provider>
                 </Carousel.Item>
                 {/* <Carousel.Item>
@@ -54,7 +54,7 @@ function Footer() {
             </Carousel>
             <Carousel controls={false} indicators={false} className='bg-transparent footercarouselmobile mobile'>
                 <Carousel.Item>
-                <img className="mobilefooterlogolt" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
+                <img className="mobilefooterlogolt" alt="mosquito magicians banner and mosquito" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
                 <h3 className='text-light'>Contact Us for A Free Quote</h3>
                 <IconContext.Provider value={{ color: "white" }}>
                 <a className="p-2" href="tel:+1-517-513-4554"><BsFillTelephoneOutboundFill size={20} /></a>
@@ -68,7 +68,7 @@ function Footer() {
                 <a className="p-2" href="mailto:robertwetoskey@gmail.com?subject=Quote&body=Please give us your name, address, and phone number and tell us what you would like treatment for. We will get back with you as soon as possible.">
                     <AiOutlineMail size={20} />
                 </a>
-                <img className="mobilefooterlogort" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
+                <img className="mobilefooterlogort" alt="mosquito magicians banner and mosquito" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
                 </IconContext.Provider>
                 </Carousel.Item>
                 {/* <Carousel.Item>

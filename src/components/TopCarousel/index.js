@@ -7,19 +7,21 @@ import { FaSms } from 'react-icons/fa';
 import meadow from '../../images/meadow.jpg';
 import childpet from '../../images/childpet.jpg';
 import lawn from '../../images/lawn.jpg';
+import { IconContext } from 'react-icons';
 
 function Lead() {
 
     return (
         <div className=' d-flex justify-content-center '>
             <div className='mobile'>
-        <Carousel>
+                <IconContext.Provider value={{color: "white" }}>
+        <Carousel indicators={false}>
             <Carousel.Item>
                 <img
                     className="mobilecarousel"
                     
                     src={childpet}
-                    alt="First slide"
+                    alt="Child and pet"
                 />
                 <Carousel.Caption>
                     <h3>Protect Your Family</h3>
@@ -34,7 +36,7 @@ function Lead() {
                 <img
                     className="mobilecarousel"
                     src={meadow}
-                    alt="Second slide"
+                    alt="meadow"
                 />
 
                 <Carousel.Caption>
@@ -46,7 +48,7 @@ function Lead() {
                 <img
                     className="mobilecarousel"
                     src={lawn}
-                    alt="Third slide"
+                    alt="dewy grass"
                 />
 
                 <Carousel.Caption>
@@ -55,17 +57,18 @@ function Lead() {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+        </IconContext.Provider>
         </div>
 
         <div className='desktop '>
-
-        <Carousel className=''>
+        <IconContext.Provider value={{color: "green" }}>
+        <Carousel indicators={false} className=''>
             <Carousel.Item className=''>
                 <img
                     className="carouselimg"
                     
                     src={facebookbanner}
-                    alt="First slide"
+                    alt="Family picnic"
                 />
                 <Carousel.Caption>
                     <h3 className='carouseltext h1'>Call Us For a Free Quote</h3>
@@ -80,7 +83,7 @@ function Lead() {
                 <img
                     className="carouselimg"
                     src={birthdayimg}
-                    alt="Second slide"
+                    alt="Outdoor family birthday"
                 />
 
                 <Carousel.Caption>
@@ -91,7 +94,7 @@ function Lead() {
                 <img
                     className="carouselimg"
                     src={lawn}
-                    alt="Third slide"
+                    alt="dewy lawn"
                 />
 
                 <Carousel.Caption>
@@ -100,6 +103,7 @@ function Lead() {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+        </IconContext.Provider>
         </div>
         </div>
 
