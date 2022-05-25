@@ -2,12 +2,14 @@ import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { BsFillTelephoneOutboundFill } from 'react-icons/bs';
 import { Container } from "react-bootstrap";
+import { IconContext } from "react-icons";
 
 
 function About() {
 
     return (
         <Container>
+            <IconContext.Provider value={{ color: "green" }}>
         <Card className="mobile">
             <Card.Header className="h1">Why Us?</Card.Header>
             <Card.Body>
@@ -36,6 +38,7 @@ function About() {
             <a className="p-2" href="tel:+1-517-513-4554"><BsFillTelephoneOutboundFill size={30} /></a>
         </Card.Body>
     </Card>
+    </IconContext.Provider>
     </Container>
     )
 }

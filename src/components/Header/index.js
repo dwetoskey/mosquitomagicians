@@ -4,12 +4,14 @@ import { Container } from "react-bootstrap";
 import './header.css';
 import { BsFacebook, BsFillTelephoneOutboundFill } from 'react-icons/bs';
 import { FaSms } from 'react-icons/fa';
+import { IconContext } from "react-icons";
 
 function Header() {
 
     return (
         <Navbar bg="light" variant="light" className="d-flex flex-wrap">
             <Container>
+            <IconContext.Provider value={{ color: "green" }}>
                 <Navbar.Brand href="#home">Mosquito Magicians</Navbar.Brand>
                 <Container className="justify-content-right">
 
@@ -22,7 +24,9 @@ function Header() {
                     </a>
                     <a className="p-2" href="tel:+1-517-513-4554"><BsFillTelephoneOutboundFill size={40} /></a>
                 </Container>
+                </IconContext.Provider>
             </Container>
+            
         </Navbar>
     )
 }

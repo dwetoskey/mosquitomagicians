@@ -7,12 +7,14 @@ import wnv from '../../images/wnv.png';
 import tick from '../../images/ticks.jpg';
 import { AiOutlineMail } from 'react-icons/ai';
 import flea from '../../images/flea.jpg';
+import { IconContext } from "react-icons";
 
 
 function Facts() {
 
     return (
         <Container>
+            <IconContext.Provider value={{ color: "green" }}>
              <h1 className="border-bottom">Common Pest Facts</h1>
             <div className="d-flex flex-wrap">
            
@@ -22,16 +24,16 @@ function Facts() {
                 <Card.Body>
                     <Card.Title>Mosquitos</Card.Title>
                     <Card.Text>
-                        Mosquitos have been linked to multiple diseases. Be sure to stay informed with the link below and to stay protected from diseases such as West Nile Virus, Eastern Equine Encephalitis, Zika and more.
+                        Mosquitos have been linked to multiple diseases. Stay protected from diseases such as West Nile Virus, Eastern Equine Encephalitis, Zika and more by calling us today.
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
                 </ListGroup>
                 <Card.Body>
-                    <Card.Link href="https://www.michigan.gov/emergingdiseases/mosquitoes" target="_blank">Michigan.Gov Mosquito Info</Card.Link>
+                    <Card.Link className="link-success" href="https://www.michigan.gov/emergingdiseases/mosquitoes" target="_blank">Michigan.Gov Mosquito Info</Card.Link>
                 </Card.Body>
-                <Card.Body>
-                    <h3>Call Us Now @<br /><a className="p-2" href="tel:+1-517-513-4554">517-513-4554</a></h3>
+                <Card.Body >
+                    <h3>Call Us Now @<br /><a className="p-2 link-success" href="tel:+1-517-513-4554">517-513-4554</a></h3>
                 </Card.Body>
             </Card>
 
@@ -46,9 +48,9 @@ function Facts() {
                 <ListGroup className="list-group-flush">
                 </ListGroup>
                 <Card.Body>
-                    <Card.Link href="https://www.michigan.gov/mdhhs/-/media/Project/Websites/emergingdiseases/Folder3/Ticks_and_Your_Health_05_19.pdf" target="_blank">Michigan.Gov Tick Info</Card.Link>
+                    <Card.Link className="link-success" href="https://www.michigan.gov/mdhhs/-/media/Project/Websites/emergingdiseases/Folder3/Ticks_and_Your_Health_05_19.pdf" target="_blank">Michigan.Gov Tick Info</Card.Link>
                     <Card.Body>
-                    <h3>Email Us<br /><a className="p-2" href="mailto:robertwetoskey@gmail.com?subject=Quote&body=Please give us your name, address, and phone number and tell us what you would like treatment for. We will get back with you as soon as possible."><AiOutlineMail size={40}/></a></h3>
+                    <h3>Email Us<br /><a className="p-2 link" href="mailto:robertwetoskey@gmail.com?subject=Quote&body=Please give us your name, address, and phone number and tell us what you would like treatment for. We will get back with you as soon as possible."><AiOutlineMail size={40}/></a></h3>
                 </Card.Body>
                     
                 </Card.Body>
@@ -66,14 +68,15 @@ function Facts() {
                 <ListGroup className="list-group-flush">
                 </ListGroup>
                 <Card.Body>
-                    <Card.Link href="https://www.cdc.gov/fleas/diseases.html" target="_blank">CDC Fleaborne Diseases Info</Card.Link>
+                    <Card.Link className="link-success" href="https://www.cdc.gov/fleas/diseases.html" target="_blank">CDC Fleaborne Diseases Info</Card.Link>
                     <Card.Body>
-                    <h3>Call Us Now @<br /><a className="p-2" href="tel:+1-517-513-4554">517-513-4554</a></h3>
+                    <h3>Call Us Now @<br /><a className="p-2 link-success" href="tel:+1-517-513-4554">517-513-4554</a></h3>
                 </Card.Body>
                     
                 </Card.Body>
             </Card>
             </div>
+            </IconContext.Provider>
         </Container>
     )
 }
