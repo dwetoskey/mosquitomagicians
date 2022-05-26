@@ -12,8 +12,10 @@ import { IconContext } from 'react-icons';
 function Lead() {
 
     return (
-        <div className=' d-flex justify-content-center '>
+        <div className=' d-flex justify-content-center whatcontainer'>
+            <br></br>
             <div className='mobile'>
+                <br></br>
                 <IconContext.Provider value={{color: "white" }}>
         <Carousel indicators={false}>
             <Carousel.Item>
@@ -58,9 +60,11 @@ function Lead() {
             </Carousel.Item>
         </Carousel>
         </IconContext.Provider>
+        <br />
         </div>
-
+        <br></br>
         <div className='desktop '>
+            <br></br>
         <IconContext.Provider value={{color: "green" }}>
         <Carousel indicators={false} className=''>
             <Carousel.Item className=''>
@@ -104,6 +108,7 @@ function Lead() {
             </Carousel.Item>
         </Carousel>
         </IconContext.Provider>
+        <br></br>
         </div>
         </div>
 
