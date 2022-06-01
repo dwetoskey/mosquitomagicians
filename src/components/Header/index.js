@@ -1,4 +1,3 @@
-import { Nav } from "react-bootstrap";
 import { Navbar } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import './header.css';
@@ -16,7 +15,7 @@ function Header() {
                 <Container className="justify-content-right">
 
                     <img className="logo" alt="mosquito magicians banner and mosquito" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
-                    <a className="icons p-2" href="https://www.facebook.com/profile.php?id=100065590235649" target="_blank">
+                    <a className="icons p-2" href="https://www.facebook.com/profile.php?id=100065590235649" target="_blank" rel="noreferrer">
                         <BsFacebook size={40} />
                     </a>
                     <a className="p-2" href="sms:+1-517-513-4554">

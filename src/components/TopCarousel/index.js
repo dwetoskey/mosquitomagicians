@@ -1,8 +1,7 @@
 import { Carousel } from 'react-bootstrap';
-import bbqimg from '../../images/bbq.jpg';
 import birthdayimg from '../../images/birthday.jpg';
 import facebookbanner from '../../images/facebook banner 3.jpg';
-import { BsFacebook, BsFillTelephoneOutboundFill } from 'react-icons/bs';
+import { BsFillTelephoneOutboundFill } from 'react-icons/bs';
 import { FaSms } from 'react-icons/fa';
 import meadow from '../../images/meadow.jpg';
 import childpet from '../../images/childpet.jpg';

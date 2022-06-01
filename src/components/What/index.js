@@ -1,4 +1,3 @@
-import { Accordion } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
@@ -15,8 +14,8 @@ function What() {
                 <div className="d-flex justify-content-center align-items-center flex-column bg-transparent">
                     <h1 className="border-bottom border-dark">What We Do</h1>
                     <br />
-                    <img className="infographicmobile mobile" src={require("../../images/infographic.png")} />
-                    <img className="infographicdesktop desktop" src={require("../../images/infographic.png")} />
+                    <img className="infographicmobile mobile" alt="premium treatments, barrier sprays, service guarantee, prioritize safety, whatever it takes." src={require("../../images/infographic.png")} />
+                    <img className="infographicdesktop desktop" alt="premium treatments, barrier sprays, service guarantee, prioritize safety, whatever it takes." src={require("../../images/infographic.png")} />
                     </div>
                     <div className="d-flex justify-content-left flex-column whatbullets m-auto bg-transparent whattext">
                         <h4 className=""><FaMagic></FaMagic> We provide premium treatments for your property to protect your family and pets from over 70 different pests.</h4>

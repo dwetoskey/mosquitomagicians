@@ -14,7 +14,7 @@ function Footer() {
                     <img className="footerlogolt" alt="mosquito magicians banner and mosquito" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
                     <h1 className=''>Contact Us for A Free Quote</h1>
                     <IconContext.Provider value={{ color: "white" }}>
-                        <a className="icons p-2" href="https://www.facebook.com/profile.php?id=100065590235649" target="_blank">
+                        <a className="icons p-2" href="https://www.facebook.com/profile.php?id=100065590235649" target="_blank" rel="noreferrer">
                             <BsFacebook size={40} />
                         </a>
                         <a className="p-2" href="sms:+1-517-513-4554">
@@ -31,7 +31,7 @@ function Footer() {
                 <Carousel.Item>
                     <img className="footerlogolt" alt="mosquito magicians banner and mosquito" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
                     <IconContext.Provider value={{ color: "white" }}>
-                        <a className="icons p-2 link-dark" href="https://g.page/r/Cfs78SCgUABGEAI/review" target="_blank">
+                        <a className="icons p-2 link-dark" href="https://g.page/r/Cfs78SCgUABGEAI/review" target="_blank" rel="noreferrer">
                             <h1 className=''>Leave Us A Review</h1>
                         </a>
                         <img className="footerlogort" alt="mosquito magicians banner and mosquito" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
@@ -46,7 +46,7 @@ function Footer() {
                     <h3 className=''>Contact Us for A Free Quote</h3>
                     <IconContext.Provider value={{ color: "white" }}>
                         <a className="p-2" href="tel:+1-517-513-4554"><BsFillTelephoneOutboundFill size={20} /></a>
-                        <a className="icons p-2" href="https://www.facebook.com/profile.php?id=100065590235649" target="_blank">
+                        <a className="icons p-2" href="https://www.facebook.com/profile.php?id=100065590235649" target="_blank" rel="noreferrer">
                             <BsFacebook size={20} />
                         </a>
                         <a className="p-2" href="sms:+1-517-513-4554">
@@ -63,7 +63,7 @@ function Footer() {
                 <Carousel.Item>
                     <img className="mobilefooterlogolt" alt="mosquito magicians banner and mosquito" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />
                     <IconContext.Provider value={{ color: "white" }}>
-                        <a className="icons p-2 link-dark" href="https://g.page/r/Cfs78SCgUABGEAI/review" target="_blank">
+                        <a className="icons p-2 link-dark" href="https://g.page/r/Cfs78SCgUABGEAI/review" target="_blank" rel="noreferrer">
                             <h1 className=''>Review Us</h1>
                         </a>
                         <img className="mobilefooterlogort" alt="mosquito magicians banner and mosquito" src={require('../../images/Mosquito Magicians-logos__transparent 2.png')} />

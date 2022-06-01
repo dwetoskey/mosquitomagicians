@@ -1,7 +1,5 @@
 import { Card } from "react-bootstrap";
-import placeholderimg from '../../images/placeholder.png';
 import { ListGroup } from "react-bootstrap";
-import { ListGroupItem } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import wnv from '../../images/wnv.png';
 import tick from '../../images/ticks.jpg';
